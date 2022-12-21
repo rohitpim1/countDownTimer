@@ -3,7 +3,7 @@ import CountdownTimer from './CountdownTimer';
 import './App.css';
 
 export default function App() {
-  const THREE_DAYS_IN_MS = 3 * 23 * 60 * 60*1000;
+  const THREE_DAYS_IN_MS = 3 * 24 * 60 * 60*1000;
   const SEVEN_DAYS_IN_MS = 7 * 24 * 60 * 60 * 1000;
   const NOW_IN_MS = new Date().getTime();
 console.log("th + nw",SEVEN_DAYS_IN_MS + NOW_IN_MS)
